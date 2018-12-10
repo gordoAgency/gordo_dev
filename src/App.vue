@@ -1,7 +1,7 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <img class="logo" alt="logo" src="./assets/gordo-logo.svg">
+    <HelloWorld msg="Gordo ! "/>
   </div>
 </template>
 
@@ -14,15 +14,29 @@ export default {
     HelloWorld
   }
 }
+
+
+
 </script>
 
-<style>
+<style lang="scss">
+body{
+  margin: 0px;
+}
+.logo{
+  width: 60vw;
+  path{
+    fill: white;
+  }
+}
 #app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
+  font-family: 'ubuntu', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+  background-color: #aa0005;
+  color: white;
+  width: 100vw;
+  height: 100vh;
 }
 </style>
