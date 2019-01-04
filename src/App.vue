@@ -1,17 +1,19 @@
 <template>
   <div id="app">
-    <img class="logo" alt="logo" src="./assets/gordo-logo.svg">
-    <HelloWorld msg="Gordo ! "/>
+    <AgLogo></AgLogo>
+    <AgHello msg="Gordo ! "/>
   </div>
 </template>
 
 <script>
 import HelloWorld from './components/HelloWorld.vue'
+import Aglogo from './components/Ag-logo.vue'
 
 export default {
   name: 'app',
   components: {
-    HelloWorld
+    AgHello : HelloWorld,
+    AgLogo  : Aglogo
   }
 }
 
@@ -19,7 +21,7 @@ export default {
 
 </script>
 
-<style lang="scss">
+<style lang="scss" scoped>
 body{
   margin: 0px;
 }
