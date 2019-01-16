@@ -1,7 +1,7 @@
 <template >
 
 	<div class="gordo">
-		<div @click="morpheus" class="morphdiv">
+		<div class="morphdiv">
 		<div class="favorite__sprinkle">
 	  	<div class="favorite__sprinkle-circle"></div>
 		</div>
@@ -56,8 +56,8 @@
 export default {
   methods: {
     morpheus: function(){
-
       var BasicTl = this.$anime.timeline();
+
 
 			BasicTl
 			.add({
@@ -156,10 +156,11 @@ export default {
 					easing: [.91,-0.54,.29,1.56]
 				}
 			})
-
-
     }
-  }
+  },
+	mounted: function() {
+		this.morpheus();
+	}
 }
 </script>
 
@@ -178,14 +179,17 @@ export default {
 }
 
 .favorite__active,
-.favorite__inactive,{
+.favorite__inactive{
 	transform-origin: center;
 }
 
+.favorite__inactive{
+	fill: #E61C2A;
+}
 
 .favorite__active{
 	opacity: 0;
-	fill: #E61C2A;
+	fill: black;
 }
 
 .gordo,
@@ -214,7 +218,7 @@ $rot: 0;
 	opacity: 0;
   position: absolute;
   content: '';
-  background: #E61C2A;
+  background: black;
   border-radius: 40%;
   width: 10px;
   min-height: 10px !important;
