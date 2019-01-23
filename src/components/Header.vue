@@ -22,8 +22,8 @@ export default {
 
 <style lang="scss" scoped>
 .gordo-header{
-  z-index: 9999;
-  height: 6vh;
+  z-index: 9998;
+  // height: 6vh;
   // padding: 15em;
   position: relative;
   position: fixed;

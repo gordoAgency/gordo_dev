@@ -6,7 +6,7 @@ import Contact from './components/Contact.vue';
 
 
 export const routes =[
-  {path:'', component: Home},
+  {path:'/', component: Home},
   {path:'/clients', component: Clients},
   {path:'/team', component: Team},
   {path:'/about', component: About},

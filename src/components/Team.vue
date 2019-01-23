@@ -1,5 +1,5 @@
 <template lang="html">
-  <section class="gordo-team">
+  <section class="gordo-team container-fluid">
   <img @click="backHome" class="logo-img" :src="require('../assets/gordo-only-logo.png')" alt="gordo-logo">
   <h1>Gordo Team</h1>
   <AgMember class="member" :class="member.name" v-for="member in members">
@@ -46,9 +46,12 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-.gordo-team{
-  background-color: #eee;
-}
+  h1{
+    font-family: Staatliches, sans-serif;
+  }
+    .gordo-team{
+    background-color: #eee;
+  }
   .img-big{
     transition: ease-in-out 0.20s 0.10s;
     width: 250px;

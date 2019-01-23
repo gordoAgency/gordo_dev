@@ -45,7 +45,10 @@ export default {
 
 <style lang="scss" scoped>
 .navi{
+  // font-family: 'ubuntu', sans-serif;
   font-family: 'Staatliches', sans-serif;
+    // font-family: 'Rewir-Light', sans-serif;
+  text-transform: uppercase;
   position: reltive;
   z-index: 9999;
 }

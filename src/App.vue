@@ -54,17 +54,23 @@ export default {
 
 <style lang="scss">
 
+$font-dir: "./assets/";
+
+@font-face {
+font-family: "Rewir-Light";
+src: url("#{$font-dir}Rewir-Light.woff") format("woff");
+font-weight: 400;
+font-style: normal;
+}
+
 [v-cloak]{
   display: none;
 }
-#app{
-}
+
 body{
   margin: 0px;
 }
-// div {
-//   border: solid red 1px;
-// }
+
 .logo{
   width: 60vw;
   path{
@@ -73,14 +79,18 @@ body{
 }
 .logo-img{
   width: 7%;
+  z-index: 9999;
+  cursor: pointer;
 }
+
 #app {
   font-family: 'ubuntu', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-
+  display: block;
 }
+
 
 //fading syles
 

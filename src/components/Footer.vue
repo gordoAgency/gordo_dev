@@ -25,10 +25,10 @@ export default {
 <style lang="scss" scoped>
 
   .gordo-footer{
-  position: absolute;
-  bottom: 0px;
+  // position: relative;
+  // bottom: 0px;
   background-color: black;
-  width: 100%
+  height: 3vh;
   }
 
   h1{

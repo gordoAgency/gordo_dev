@@ -1,5 +1,5 @@
 <template lang="html">
-  <section class="gordo-clients">
+  <section class="gordo-clients container-fluid">
   <h1>Our Clients</h1>
   <h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</h3>
   <AgClient class="client" :class="client.name" v-for="client in clients">
@@ -36,10 +36,16 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+h1{
+  font-family: Staatliches, sans-serif;
+}
   img{
     width: 250px;
     // height: 250px;
     // border-radius: 50%;
+  }
+  .gordo-clients{
+    height: 97vh;
   }
   .client{
     margin-top: 30px;
