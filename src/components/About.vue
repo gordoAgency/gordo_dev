@@ -8,8 +8,8 @@
     <p>Jej historia jest dla nas inspiracją do podejmowania odważnych działań, ponieważ są one w stanie zagwarantować sukces.</p>
     <p>Wierzymy, że wszelki postęp możliwy jest dzięki naszej ciężkiej pracy, mądrym, a zarazem odważnym decyzjom. Nie boimy się nowatorskich rozwiązań, ponieważ wiemy, że dzięki nim nasi Klienci są w stanie wznieść się wysoko i odnieść rynkowe zwycięstwo.</p>
     </div>
-    <div class="gar col-md-6">
-    </div>
+    <div class="gar col-md-6">`
+    </div> 
   </div>
 </template>
 

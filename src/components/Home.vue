@@ -88,7 +88,7 @@ export default {
   background-size: 400% 400%;
   // -webkit-animation: Gradient 15s ease infinite;
   // -moz-animation: Gradient 15s ease infinite;
-  // animation: Gradient 15s ease infinite;
+  animation: Gradient 15s ease infinite;
 }
 .gordo-groups {
      margin: 40px;
